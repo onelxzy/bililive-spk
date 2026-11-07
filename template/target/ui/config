@@ -1,0 +1,13 @@
+{
+    ".url": {
+        "SYNO.SDS.Bililive.Application": {
+            "title": "Bililive-go",
+            "desc": "Bililive-go Web UI",
+            "icon": "images/icon_{0}.png",
+            "type": "url",
+            "protocol": "http",
+            "port": "8787",
+            "allUsers": false
+        }
+    }
+}

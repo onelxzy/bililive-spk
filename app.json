@@ -1,0 +1,29 @@
+{
+  "package_id": "Bililive",
+  "display_name": "Bililive-go",
+  "type": "binary",
+  "upstream_repo": "bililive-go/bililive-go",
+  "description": "Bililive-go is a live broadcast recording tool that supports multiple live broadcast platforms.",
+  "description_chs": "Bililive-go 是一个支持多种直播平台的直播录制工具。",
+  "maintainer": "Bililive-go",
+  "maintainer_url": "https://github.com/bililive-go/bililive-go",
+  "distributor": "onelxzy",
+  "distributor_url": "https://github.com/onelxzy",
+  "os_min_ver": "7.2-64570",
+  "category": "Multimedia",
+  "changelog": "自动构建，对应上游 {tag}。",
+  "architectures": [
+    {
+      "family": "x86_64",
+      "asset_pattern": "^bililive-linux-amd64\\.tar\\.gz$",
+      "binary_path": "bililive-linux-amd64",
+      "binary_dest": "bin/bililive"
+    },
+    {
+      "family": "arm",
+      "asset_pattern": "^bililive-linux-arm64\\.tar\\.gz$",
+      "binary_path": "bililive-linux-arm64",
+      "binary_dest": "bin/bililive"
+    }
+  ]
+}
